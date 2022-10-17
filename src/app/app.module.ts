@@ -12,6 +12,7 @@ import { ConquistaComponent } from './conquista/conquista.component';
 import { IambingComponent } from './iambing/iambing.component';
 import { LaterComponent } from './later/later.component';
 import { EmComponent } from './em/em.component';
+import { KnmComponent } from './knm/knm.component';
 
 @NgModule({
     declarations: [
@@ -24,6 +25,7 @@ import { EmComponent } from './em/em.component';
         IambingComponent,
         LaterComponent,
         EmComponent,
+        KnmComponent,
     ],
     imports: [
         BrowserModule,

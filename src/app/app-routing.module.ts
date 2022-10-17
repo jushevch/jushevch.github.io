@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { MainComponent } from './main/main.component';
 
+import { KnmComponent } from './knm/knm.component';
 import { BusComponent } from './bus/bus.component';
 import { TriflesComponent } from './trifles/trifles.component';
 import { ConquistaComponent } from './conquista/conquista.component';
@@ -11,6 +12,7 @@ import { LaterComponent } from './later/later.component';
 import { EmComponent } from './em/em.component';
 
 const routes: Routes = [
+    { path: 'knm', component: KnmComponent },
     { path: 'bus', component: BusComponent },
     { path: 'trifles', component: TriflesComponent },
     { path: 'conquista', component: ConquistaComponent },

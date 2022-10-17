@@ -14,7 +14,7 @@ article {
 article header,
 main header {
   background-color: whitesmoke;
-  padding: 2.8rem 2rem 3rem;
+  padding: 2.8rem 2rem 2rem;
   font-family: 'Fira Sans';
 }
 
@@ -32,14 +32,21 @@ main header p {
   font-size: 1rem;
   font-weight: 300;
   text-align: center;
-  margin: 1rem 0 0;
+  margin: 1rem 0 1rem;
   color: gray;
+}
+
+article header img,
+main header img {
+  max-width: 100%;
+  margin-top: 1rem;
+  border-radius: 5px;
 }
 
 article section,
 main section {
   background-color: gainsboro;
-  padding: 1.3rem;
+  padding: 2rem;
 }
 
 article section p,
@@ -126,6 +133,16 @@ nav svg:hover {
   nav div:first-child svg {
     position: relative;
     top: 0.1rem;
+  }
+
+  article header,
+  main header {
+    padding: 2.8rem 1.3rem 2rem;
+  }
+
+  article section,
+  main section {
+    padding: 1.3rem;
   }
 }
 
