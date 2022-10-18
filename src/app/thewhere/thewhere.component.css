@@ -11,7 +11,7 @@ header div.thumbs div {
 }
 
 header div.thumbs div img {
-  border: 1px solid gainsboro;
+  box-shadow: 0 1px 4px silver;
   padding: 0.25rem;
   border-radius: 0.25rem;
   margin-top: 0;
@@ -20,7 +20,7 @@ header div.thumbs div img {
 header div.thumbs div h2 {
   font-size: 1.2rem;
   font-weight: 300;
-  margin: 0.6rem 0 0;
+  margin: 0.8rem 0 0;
 }
 
 header div.thumbs div h2 a {
