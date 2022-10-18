@@ -1,0 +1,38 @@
+header img {
+  width: 18rem;
+  border-radius: 50%;
+}
+
+header address {
+  font-style: normal;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.2rem;
+  margin: 1.8rem 0 0.3rem;
+}
+
+section h2 span {
+  display: inline-block;
+  width: 45px;
+}
+
+section p {
+  margin-left: 50px;
+}
+
+svg.music {
+  position: relative;
+  top: 8px;
+}
+
+svg.script {
+  position: relative;
+  top: 8px;
+  left: 2px;
+}
+
+svg.design {
+  position: relative;
+  top: 6px;
+}

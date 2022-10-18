@@ -38,7 +38,8 @@ main header h1 {
 }
 
 article header p,
-main header p {
+main header p,
+main header address {
   font-size: 1rem;
   font-weight: 300;
   line-height: 1.5;
@@ -47,7 +48,8 @@ main header p {
 }
 
 article header p a,
-main header p a {
+main header p a,
+main header address a {
   color: gray;
   text-underline-position: under;
   text-decoration-color: darkgray;
@@ -55,7 +57,8 @@ main header p a {
 }
 
 article header p a:hover,
-main header p a:hover {
+main header p a:hover,
+main header address a:hover {
   color: black;
 }
 
@@ -76,7 +79,7 @@ article section h2,
 main section h2 {
   font-family: 'Fira Sans';
   font-weight: 500;
-  margin-block-start: 2.5rem;
+  margin-block-start: 2rem;
 }
 
 article section h2:first-child,
