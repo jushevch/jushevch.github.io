@@ -49,6 +49,18 @@ main section {
   padding: 2rem;
 }
 
+article section h2,
+main section h2 {
+  font-family: 'Fira Sans';
+  font-weight: 500;
+  margin-block-start: 2.5rem;
+}
+
+article section h2:first-child,
+main section h2:first-child {
+  margin-block-start: 0;
+}
+
 article section p,
 main section p {
   font-family: 'Source Serif Pro';
@@ -142,7 +154,7 @@ nav svg:hover {
 
   article section,
   main section {
-    padding: 1.3rem;
+    padding: 2rem 1.3rem;
   }
 }
 

@@ -13,6 +13,8 @@ import { IambingComponent } from './iambing/iambing.component';
 import { LaterComponent } from './later/later.component';
 import { EmComponent } from './em/em.component';
 import { KnmComponent } from './knm/knm.component';
+import { EmpireComponent } from './empire/empire.component';
+import { EmcardComponent } from './emcard/emcard.component';
 
 @NgModule({
     declarations: [
@@ -26,6 +28,8 @@ import { KnmComponent } from './knm/knm.component';
         LaterComponent,
         EmComponent,
         KnmComponent,
+        EmpireComponent,
+        EmcardComponent,
     ],
     imports: [
         BrowserModule,
