@@ -1,0 +1,17 @@
+iframe {
+  box-sizing: content-box;
+  border: 1px solid gainsboro;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 600px;
+  height: 770px;
+  margin-top: 2rem;
+}
+
+iframe + p {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.2rem;
+  margin: 1.8rem 0 0.3rem;
+}

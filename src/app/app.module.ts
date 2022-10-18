@@ -5,6 +5,17 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { MainComponent } from './main/main.component';
+
+import { ThewhereComponent } from './thewhere/thewhere.component';
+import { KingdomComponent } from './thewhere/kingdom/kingdom.component';
+import { DaysComponent } from './thewhere/days/days.component';
+import { WinterComponent } from './thewhere/winter/winter.component';
+import { NocturnalComponent } from './thewhere/nocturnal/nocturnal.component';
+import { DeProfundisComponent } from './thewhere/de-profundis/de-profundis.component';
+import { PramComponent } from './thewhere/pram/pram.component';
+import { IlluzstratorComponent } from './thewhere/illuzstrator/illuzstrator.component';
+import { UrsaComponent } from './thewhere/ursa/ursa.component';
+
 import { BusComponent } from './bus/bus.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { TriflesComponent } from './trifles/trifles.component';
@@ -20,6 +31,15 @@ import { EmcardComponent } from './emcard/emcard.component';
     declarations: [
         AppComponent,
         MainComponent,
+        ThewhereComponent,
+        KingdomComponent,
+        DaysComponent,
+        WinterComponent,
+        NocturnalComponent,
+        DeProfundisComponent,
+        PramComponent,
+        IlluzstratorComponent,
+        UrsaComponent,
         BusComponent,
         NavigationComponent,
         TriflesComponent,
