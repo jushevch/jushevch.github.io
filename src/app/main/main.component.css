@@ -21,6 +21,10 @@ section p {
   margin-left: 50px;
 }
 
+svg {
+  fill: var(--cool-section-a-hover);
+}
+
 svg.music {
   position: relative;
   top: 8px;

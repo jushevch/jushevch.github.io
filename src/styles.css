@@ -1,10 +1,33 @@
 :root {
-  --shadow: #484848;
+  --gray-body: dimgray;
+  --gray-section: gainsboro;
+  --gray-section-a-underline: darkgray;
+  --gray-section-a-hover: gray;
+  --gray-article-shadow: #484848;
+  --gray-nav-svg: darkgray;
+
+  /* Adobe HSB: 200 33 50 */
+  --cool-body: #557180;
+
+  /* Adobe HSB: 33 10 90 */
+  --cool-section: #E6DBCF;
+
+  /* Adobe HSB: 33 15 80 */
+  --cool-section-a-underline: #CCBEAD;
+
+  /* Adobe HSB: 33 20 70 */
+  --cool-section-a-hover: #B3A28F;
+
+  /* Adobe HSB: 200 33 33 */
+  --cool-article-shadow: #384B54;
+
+  /* Adobe HSB: 200 33 66 */
+  --cool-nav-svg: #7196A8;
 }
 
 body {
   margin: 0;
-  background-color: dimgray;
+  background-color: var(--cool-body);
 }
 
 span.nowrap {
@@ -71,7 +94,7 @@ main header img {
 
 article section,
 main section {
-  background-color: gainsboro;
+  background-color: var(--cool-section);
   padding: 2rem;
 }
 
@@ -99,13 +122,13 @@ article section p a,
 main section p a {
   color: black;
   text-underline-position: under;
-  text-decoration-color: darkgray;
+  text-decoration-color: var(--cool-section-a-underline);
   text-decoration-thickness: 1px;
 }
 
 article section p a:hover,
 main section p a:hover {
-  color: gray;
+  color: var(--cool-section-a-hover);
 }
 
 article section p:first-child,
@@ -145,7 +168,7 @@ nav div {
 }
 
 nav svg {
-  fill: darkgray;
+  fill: var(--cool-nav-svg);
 }
 
 nav svg:hover {
@@ -156,19 +179,19 @@ nav svg:hover {
 
   article {
     margin-right: 2.8rem;
-    box-shadow: 0 3px 8px var(--shadow);
+    box-shadow: 0 3px 8px var(--cool-article-shadow);
   }
 }
 
 @media screen and (orientation: portrait) {
 
   main {
-    box-shadow: 0 3px 8px var(--shadow);
+    box-shadow: 0 3px 8px var(--cool-article-shadow);
   }
 
   article {
     margin-top: 2.8rem;
-    box-shadow: 0 -2px 8px var(--shadow);
+    box-shadow: 0 -2px 8px var(--cool-article-shadow);
   }
 
   nav {
@@ -199,7 +222,7 @@ nav svg:hover {
   main {
     margin: 1rem auto;
     width: 100ch;
-    box-shadow: 0 3px 8px var(--shadow);
+    box-shadow: 0 3px 8px var(--cool-article-shadow);
   }
 
   article header,
