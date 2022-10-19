@@ -1,0 +1,1 @@
+{"version":3,"file":"scripts.js","mappings":"AAAA,yCACAA,8BACA","names":["VK"],"sourceRoot":"webpack:///","sources":["src\\assets\\vk.js"],"sourcesContent":["const initVkPlaylist = function (objId, ownerId, playlistId, hash, options) {\r\n    VK.Widgets.Playlist(objId, ownerId, playlistId, hash, options);\r\n};\r\n"],"x_google_ignoreList":[]}
