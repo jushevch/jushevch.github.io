@@ -92,6 +92,10 @@ main header img {
   border-radius: 5px;
 }
 
+article section {
+  overflow-x: auto;
+}
+
 article section,
 main section {
   background-color: var(--cool-section);
@@ -149,6 +153,18 @@ article section p.small {
 
 article section p.small strong {
   font-weight: 500;
+}
+
+article section pre {
+  font-family: 'Fira Code';
+}
+
+article section pre:first-child {
+  margin-block-start: 0;
+}
+
+article section pre:last-child {
+  margin-block-end: 0;
 }
 
 nav {
