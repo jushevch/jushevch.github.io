@@ -33,6 +33,9 @@ import { RainComponent } from './chords/rain/rain.component';
 import { SendeiComponent } from './chords/sendei/sendei.component';
 import { DukeComponent } from './chords/duke/duke.component';
 import { DittiesComponent } from './chords/ditties/ditties.component';
+import { WarmComponent } from './chords/warm/warm.component';
+import { TiredComponent } from './chords/tired/tired.component';
+import { GoblinComponent } from './chords/goblin/goblin.component';
 
 @NgModule({
     declarations: [
@@ -63,6 +66,9 @@ import { DittiesComponent } from './chords/ditties/ditties.component';
         SendeiComponent,
         DukeComponent,
         DittiesComponent,
+        WarmComponent,
+        TiredComponent,
+        GoblinComponent,
     ],
     imports: [
         BrowserModule,

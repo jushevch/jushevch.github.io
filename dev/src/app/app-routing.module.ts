@@ -30,6 +30,9 @@ import { RainComponent } from './chords/rain/rain.component';
 import { SendeiComponent } from './chords/sendei/sendei.component';
 import { DukeComponent } from './chords/duke/duke.component';
 import { DittiesComponent } from './chords/ditties/ditties.component';
+import { WarmComponent } from './chords/warm/warm.component';
+import { TiredComponent } from './chords/tired/tired.component';
+import { GoblinComponent } from './chords/goblin/goblin.component';
 
 const routes: Routes = [
     { path: 'thewhere/kingdom', component: KingdomComponent },
@@ -46,6 +49,9 @@ const routes: Routes = [
     { path: 'chords/sendei', component: SendeiComponent },
     { path: 'chords/duke', component: DukeComponent },
     { path: 'chords/ditties', component: DittiesComponent },
+    { path: 'chords/warm', component: WarmComponent },
+    { path: 'chords/tired', component: TiredComponent },
+    { path: 'chords/goblin', component: GoblinComponent },
     { path: 'chords', component: ChordsComponent },
     { path: 'knm', component: KnmComponent },
     { path: 'bus', component: BusComponent },
