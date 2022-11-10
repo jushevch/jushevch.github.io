@@ -36,6 +36,10 @@ import { DittiesComponent } from './chords/ditties/ditties.component';
 import { WarmComponent } from './chords/warm/warm.component';
 import { TiredComponent } from './chords/tired/tired.component';
 import { GoblinComponent } from './chords/goblin/goblin.component';
+import { LoveComponent } from './chords/love/love.component';
+import { FunComponent } from './chords/fun/fun.component';
+import { HorizontalComponent } from './chords/horizontal/horizontal.component';
+import { LadoComponent } from './chords/lado/lado.component';
 
 @NgModule({
     declarations: [
@@ -69,6 +73,10 @@ import { GoblinComponent } from './chords/goblin/goblin.component';
         WarmComponent,
         TiredComponent,
         GoblinComponent,
+        LoveComponent,
+        FunComponent,
+        HorizontalComponent,
+        LadoComponent,
     ],
     imports: [
         BrowserModule,
