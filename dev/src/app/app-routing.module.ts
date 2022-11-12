@@ -37,6 +37,7 @@ import { LoveComponent } from './chords/love/love.component';
 import { FunComponent } from './chords/fun/fun.component';
 import { HorizontalComponent } from './chords/horizontal/horizontal.component';
 import { LadoComponent } from './chords/lado/lado.component';
+import { CinemaComponent } from './chords/cinema/cinema.component';
 
 const routes: Routes = [
     { path: 'thewhere/kingdom', component: KingdomComponent },
@@ -60,6 +61,7 @@ const routes: Routes = [
     { path: 'chords/fun', component: FunComponent },
     { path: 'chords/horizontal', component: HorizontalComponent },
     { path: 'chords/lado', component: LadoComponent },
+    { path: 'chords/cinema', component: CinemaComponent },
     { path: 'chords', component: ChordsComponent },
     { path: 'knm', component: KnmComponent },
     { path: 'bus', component: BusComponent },

@@ -40,6 +40,7 @@ import { LoveComponent } from './chords/love/love.component';
 import { FunComponent } from './chords/fun/fun.component';
 import { HorizontalComponent } from './chords/horizontal/horizontal.component';
 import { LadoComponent } from './chords/lado/lado.component';
+import { CinemaComponent } from './chords/cinema/cinema.component';
 
 @NgModule({
     declarations: [
@@ -77,6 +78,7 @@ import { LadoComponent } from './chords/lado/lado.component';
         FunComponent,
         HorizontalComponent,
         LadoComponent,
+        CinemaComponent,
     ],
     imports: [
         BrowserModule,
