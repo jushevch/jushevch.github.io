@@ -41,6 +41,8 @@ import { FunComponent } from './chords/fun/fun.component';
 import { HorizontalComponent } from './chords/horizontal/horizontal.component';
 import { LadoComponent } from './chords/lado/lado.component';
 import { CinemaComponent } from './chords/cinema/cinema.component';
+import { BanditoComponent } from './chords/bandito/bandito.component';
+import { FutureComponent } from './chords/future/future.component';
 
 @NgModule({
     declarations: [
@@ -79,6 +81,8 @@ import { CinemaComponent } from './chords/cinema/cinema.component';
         HorizontalComponent,
         LadoComponent,
         CinemaComponent,
+        BanditoComponent,
+        FutureComponent,
     ],
     imports: [
         BrowserModule,
