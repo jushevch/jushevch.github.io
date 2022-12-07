@@ -40,6 +40,8 @@ import { LadoComponent } from './chords/lado/lado.component';
 import { CinemaComponent } from './chords/cinema/cinema.component';
 import { BanditoComponent } from './chords/bandito/bandito.component';
 import { FutureComponent } from './chords/future/future.component';
+import { StarComponent } from './chords/star/star.component';
+import { MemoryComponent } from './chords/memory/memory.component';
 
 const routes: Routes = [
     { path: 'thewhere/kingdom', component: KingdomComponent },
@@ -51,6 +53,8 @@ const routes: Routes = [
     { path: 'thewhere/illuzstrator', component: IlluzstratorComponent },
     { path: 'thewhere/ursa', component: UrsaComponent },
     { path: 'thewhere', component: ThewhereComponent },
+    { path: 'chords/memory', component: MemoryComponent },
+    { path: 'chords/star', component: StarComponent },
     { path: 'chords/angel', component: AngelComponent },
     { path: 'chords/rain', component: RainComponent },
     { path: 'chords/sendei', component: SendeiComponent },

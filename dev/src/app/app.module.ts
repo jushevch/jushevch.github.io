@@ -43,6 +43,8 @@ import { LadoComponent } from './chords/lado/lado.component';
 import { CinemaComponent } from './chords/cinema/cinema.component';
 import { BanditoComponent } from './chords/bandito/bandito.component';
 import { FutureComponent } from './chords/future/future.component';
+import { StarComponent } from './chords/star/star.component';
+import { MemoryComponent } from './chords/memory/memory.component';
 
 @NgModule({
     declarations: [
@@ -83,6 +85,8 @@ import { FutureComponent } from './chords/future/future.component';
         CinemaComponent,
         BanditoComponent,
         FutureComponent,
+        StarComponent,
+        MemoryComponent,
     ],
     imports: [
         BrowserModule,
